@@ -13,3 +13,5 @@ function Group(routerPrefix: PathParams, fn: Function): Router {
 
 //@ts-ignore
 express.application.group = express.Router.group = Group;
+
+export default express;
